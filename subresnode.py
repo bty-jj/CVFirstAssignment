@@ -1,7 +1,7 @@
 import rclpy  
 from rclpy.node import Node  
 from std_msgs.msg import Bool  
-#任务二
+#Node 2
 class BoolSubscriber(Node):  
     def __init__(self):  
         super().__init__('bool_subscriber')  
